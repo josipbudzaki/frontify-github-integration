@@ -1,0 +1,93 @@
+body {
+  font-family: 'Whitney SSm A', 'Whitney SSm B'; 
+  font-weight: 400; 
+  font-style: normal;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: montserrat;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  font-size: 22px;
+  font-family: montserrat;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+.h4 {
+  font-size: 22px;
+  font-family: montserrat;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.h5 {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: montserrat;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+.color-red {
+  color: #F16651;
+}
+
+.color-orange {
+  color: #FAB117;
+}
+
+.color-blue a,
+.color-blue {
+  color: #02546E;
+}
+
+.color-lightblue {
+  color: #5FC8D7;
+}
+
+.color-gray {
+  color: #8A8A8A;
+}
+
+.color-lightgray {
+  color: #CCC;
+}
+
+.color-white {
+  color: #FFF;
+}
+
+@media all and (max-width: 400px) {
+  h1 {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}
