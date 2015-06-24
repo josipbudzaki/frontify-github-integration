@@ -1,0 +1,27 @@
+.btn-group {
+  overflow: hidden;
+}
+
+.btn-group .btn {
+  float:left;
+  font-weight: normal;
+}
+
+.btn-group .btn.btn-active {
+  font-weight: bold;
+}
+
+.btn-group .btn-left {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+}
+
+.btn-group .btn-right {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
